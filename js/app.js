@@ -79,7 +79,7 @@ if ( set_cookies == true ) {
 <!-- add form widgets -->
   docReady(function() {
         var searchOrigin;
-        var searchDestination;
+        var searchDestination = 'BKK';
         var script = document.createElement('script');
         script.setAttribute('charset', 'utf-8');
         script.setAttribute('src', 'https://tp.media/content?shmarker='+ marker +'._landings&show_hotels=true&origin=' + (searchOrigin || 'HKT') + '&locale=ru&currency=rub&searchUrl=www.aviasales.ru%2Fsearch&color_button=%2332a8dd&color_icons=%2332a8dd&dark=%23262626&light=%23FFFFFF&secondary=%23FFFFFF&special=%23C4C4C4&color_focused=%2332a8dd&border_radius=2&plain=true&promo_id=7879&campaign_id=100&destination='+ (searchDestination || ''));
